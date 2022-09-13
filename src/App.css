@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.sudokuTable {
+  border: 2px solid black;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+.sudokuTable td {
+  height: 20px;
+  width: 20px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.sudokuTable tr:nth-child(3n) {
+  border-bottom: 2px solid black;
+}
+
+tr td:nth-child(3n) {
+  border-right: 2px solid black;
+}
+
+.unsolvedCell {
+  color: red;
+}
